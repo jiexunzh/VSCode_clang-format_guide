@@ -5,6 +5,8 @@
 
 在VSCode扩展中搜索 `C/C++` ，安装C/C++插件。最新的C/C++插件里集成了 clang-format，所以不用再下载clang-format插件。
 
+
+
 ### 2. 配置C/C++插件
 
 在VSCode `设置` 中，依次点击：`拓展` -> `C/C++` -> `格式设置`。
@@ -29,9 +31,8 @@
 
 当设置了clang-format且没有.clang-format文件时，会使用这里选择的默认设置来设置格式，比如：`LLVM`。
 
-### 3. .clang-format 样例
-
-[.clang-format](./.clang-format)，本人个人项目中所使用的编码风格，主要源于《华为技术有限公司C语言编程规范》。
 
 
+### 3. .clang-format 示例
 
+[.clang-format](./.clang-format)，本人个人项目中所使用的编码风格，主要源于[《华为技术有限公司C语言编程规范》](./华为技术有限公司c语言编程规范.pdf)。
